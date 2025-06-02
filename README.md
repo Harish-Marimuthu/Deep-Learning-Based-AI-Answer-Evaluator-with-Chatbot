@@ -43,6 +43,16 @@ This project implements a Streamlit-based chatbot integrated with the ChatGPT AP
   - **ROUGE Score** (Recall-based)
   - **LSTM and Siamese Networks** (Deep Semantic Matching)
 
+**Files Included**
+  
+  dataset                    
+   -- Wikipedia - QA-train.xlsx	     - Training dataset with question–answer pairs
+   -- Wikipedia - QA-validation.xlsx - Validation set used for tuning and intermediate evaluation
+   -- Wikipedia - QA-test.xlsx	     - Test set used for final model performance analysis.
+  Deep Learning - ChatBot.py → Deep learning model definitions (LSTM, Siamese Network, and hybrid logic)
+  app.py                     → Streamlit frontend for user interaction with chatbot and evaluation UI
+  Output Result              → ChatBot Image
+
 **Automated Feedback**  
   Delivers interpretive feedback in real-time, based on similarity scores (range 0 to 1).
 

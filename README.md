@@ -45,7 +45,7 @@ This project implements a Streamlit-based chatbot integrated with the ChatGPT AP
 
 **Files Included**
   
-  - dataset                    
+  - Datasets                    
   - Wikipedia - QA-train.xlsx	     → Training dataset with question–answer pairs
   - Wikipedia - QA-validation.xlsx → Validation set used for tuning and intermediate evaluation
   - Wikipedia - QA-test.xlsx	     → Test set used for final model performance analysis.
